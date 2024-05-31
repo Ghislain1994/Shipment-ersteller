@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCON>
+	<Shipments>
+		<Shipment>
+			<TMS-Status>UPD</TMS-Status>
+			<TMS-Timestamp>10.05.2024 13:30:00</TMS-Timestamp>
+			<TMS-Source>YCON-XML-M3-FB</TMS-Source>
+			<TMS-ID>SA-E-</TMS-ID>
+			<Date>02.05.2024</Date>
+			<Consignment-Note>SA-E-</Consignment-Note>
+			<Incoterm>FRH</Incoterm>
+			<ETA>2024-05-15T23:59:00</ETA>
+			<ETD/>
+			<ETPOD/>
+			<Service-Type>Sammelgut Ausgang</Service-Type>
+			<References>
+				<Reference>
+					<Ref-Type>SRF</Ref-Type>
+					<Reference>SRF-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>PON</Ref-Type>
+					<Reference>PON-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+			</References>
+			<Addresses>
+				<Client>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Client>
+				<Shipper>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Shipper>
+				<Consignee>
+					<ID>70001</ID>
+					<Name-1>Stahlwerke Mitteldeutschland GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Spinnereistrasse 7</Street>
+					<Country>DE</Country>
+					<ZIP>04179</ZIP>
+					<City>Leipzig</City>
+				</Consignee>
+				<Sending-Agent>
+					<ID>0001</ID>
+					<Name-1>ycon logistics GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Brunnenweg 19-21</Street>
+					<Country>DE</Country>
+					<ZIP>64331</ZIP>
+					<City>Weiterstadt</City>
+				</Sending-Agent>
+				<Receiving-Agent>
+					<ID>4112</ID>
+					<Name-1>Empfangsdepot Nr.60</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Beethovenstraße 32</Street>
+					<Country>DE</Country>
+					<ZIP>02625</ZIP>
+					<City>Bautzen</City>
+				</Receiving-Agent>
+				<Carrier>
+					<ID/>
+					<Name-1/>
+					<Name-2/>
+					<Name-3/>
+					<Street/>
+					<Country/>
+					<ZIP/>
+					<City/>
+				</Carrier>
+				<Loading>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Loading>
+				<Delivery>
+					<ID>70001</ID>
+					<Name-1>Stahlwerke Mitteldeutschland GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Spinnereistrasse 7</Street>
+					<Country>DE</Country>
+					<ZIP>04179</ZIP>
+					<City>Leipzig</City>
+				</Delivery>
+			</Addresses>
+			<Dispatch>
+				<ID>Manifest-Number</ID>
+				<Date>10.05.2024</Date>
+				<Vehicle>
+					<ID>DA-XX-550</ID>
+					<Identifier/>
+				</Vehicle>
+				<Trailer>
+					<ID/>
+					<Identifier/>
+				</Trailer>
+			</Dispatch>
+			<Positions>
+				<Position>
+					<Position>1</Position>
+					<Reference>PO-SA-E-5</Reference>
+					<Piecex>1</Piecex>
+					<Packaging>PAL</Packaging>
+					<Content>Farbpulver</Content>
+					<Gross-Weight>150.00</Gross-Weight>
+					<Chargeable-Weight>12.500</Chargeable-Weight>
+					<Net-Weight>120.00</Net-Weight>
+					<Loading-Meters>8.400</Loading-Meters>
+					<Volume>1.500</Volume>
+					<Length>1.2</Length>
+					<Width>0.80</Width>
+					<Height>1.00</Height>
+				</Position>
+			</Positions>
+			<Information>
+				<Data-Type>INFO</Data-Type>
+				<Relation/>
+				<Code>84</Code>
+				<Text>Fixday - Sendung</Text>
+				<Additional-Text>Tel: 123 654 876</Additional-Text>
+				<Date-From/>
+				<Date-To/>
+				<Time-From/>
+				<Time-To/>
+			</Information>
+		</Shipment>
+	</Shipments>
+</YCON>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCON>
+	<Shipments>
+		<Shipment>
+			<TMS-Status>UPD</TMS-Status>
+			<TMS-Timestamp>10.05.2022 13:30:00</TMS-Timestamp>
+			<TMS-Source>YCON-XML-M3-FB</TMS-Source>
+			<TMS-ID>FTL-B-5</TMS-ID>
+			<Date>02.05.2022</Date>
+			<Consignment-Note>ycon-demo-2022-05</Consignment-Note>
+			<Incoterm>EXW</Incoterm>
+			<ETA>2022-06-17T14:35</ETA>
+			<Service-Type>FTL</Service-Type>
+			<References>
+				<Reference>
+					<Ref-Type>SRF</Ref-Type>
+					<Reference>SRF-6</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>PON</Ref-Type>
+					<Reference>PON-7</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-8</Reference>
+				</Reference>
+			</References>
+			<Addresses>
+				<Client>
+					<ID>40002</ID>
+					<Name-1>Export Import BV</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gansstraat 110</Street>
+					<Country>NL</Country>
+					<ZIP>3582 EL</ZIP>
+					<City>Utrecht</City>
+				</Client>
+				<Shipper>
+					<ID>40002</ID>
+					<Name-1>Export Import BV</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gansstraat 110</Street>
+					<Country>NL</Country>
+					<ZIP>3582 EL</ZIP>
+					<City>Utrecht</City>
+				</Shipper>
+				<Consignee>
+					<ID>50002</ID>
+					<Name-1>Spolecnost Test</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Plzenska 536</Street>
+					<Country>CZ</Country>
+					<ZIP>33701</ZIP>
+					<City>Rokycany</City>
+				</Consignee>
+				<Sending-Agent>
+					<ID>10003</ID>
+					<Name-1>ycon forwarding Benelux</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>3991 AD</Street>
+					<Country>NL</Country>
+					<ZIP>8260</ZIP>
+					<City>Houten</City>				
+				</Sending-Agent>
+				<Receiving-Agent>
+					<ID/>
+					<Name-1/>
+					<Name-2/>
+					<Name-3/>
+					<Street/>
+					<Country/>
+					<ZIP/>8
+					<City/>	
+				</Receiving-Agent>
+				<Carrier>
+					<ID>60001</ID>
+					<Name-1>Speedy-Conzalez Truck</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Calle Universidad 2</Street>
+					<Country>ES</Country>
+					<ZIP>31009</ZIP>
+					<City>Pamplona</City>
+				</Carrier>
+				<Loading>
+					<ID>40002</ID>
+					<Name-1>Export Import BV</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gansstraat 110</Street>
+					<Country>NL</Country>
+					<ZIP>3582 EL</ZIP>
+					<City>Utrecht</City>
+				</Loading>
+				<Delivery>
+					<ID>50002</ID>
+					<Name-1>Spolecnost Test</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Plzenska 536</Street>
+					<Country>CZ</Country>
+					<ZIP>33701</ZIP>
+					<City>Rokycany</City>
+				</Delivery>
+			</Addresses>
+			<Dispatch>
+				<ID>Manifest-Number</ID>
+				<Date>10.05.2022</Date>
+				<Vehicle>
+					<ID>DA-XX-550</ID>
+					<Identifier/>
+				</Vehicle>
+				<Trailer>
+					<ID/>
+					<Identifier/>
+				</Trailer>
+			</Dispatch>
+			<Positions>
+				<Position>
+					<Position>1</Position>
+					<Reference>PO-FTL-2</Reference>
+					<Piecex>14</Piecex>
+					<Packaging>EP</Packaging>
+					<Content>Household Goods</Content>
+					<Gross-Weight>13.500</Gross-Weight>
+					<Chargeable-Weight>12.500</Chargeable-Weight>
+					<Loading-Meters>8.400</Loading-Meters>
+					<Volume>12.00</Volume>
+					<Length>120</Length>
+					<Width>80</Width>
+					<Height>80</Height>
+				</Position>
+			</Positions>
+			<Information>
+				<Data-Type>INFO</Data-Type>
+				<Relation/>
+				<Code>911</Code>
+				<Text>Please book delivery window via internet platform</Text>
+				<Additional-Text>book via Transporeon</Additional-Text>
+				<Date-From/>
+				<Date-To/>
+				<Time-From/>
+				<Time-To/>
+			</Information>
+		</Shipment>
+	</Shipments>
+</YCON>

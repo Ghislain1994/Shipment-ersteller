@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<YCON>
+  <Statusdaten>
+    <Status>
+      <TMS-Status>UPD</TMS-Status>
+      <TMS-Timestamp>2022-06-07T09:00</TMS-Timestamp>
+      <TMS-Source>YCON-XML-M3-FB_STATUS</TMS-Source>
+      <TMS-ID>GRP-B-9</TMS-ID>
+      <TMS-Status-ID>1735966</TMS-Status-ID>
+      <Event>
+        <Code>PIECESCAN3</Code>
+        <Description>Piece Level Scanning Event 3</Description>
+        <MPCode/>
+        <MPDescription/>
+        <Signature/>
+        <Note1>This is a comment</Note1>
+        <Note2/>
+        <Note3/>
+        <NVE>NVE-13</NVE>
+        <Timestamp>2022-06-07T09:00</Timestamp>
+        <Submission>2022-06-07T09:00</Submission>
+      </Event>
+    </Status>
+  </Statusdaten>
+</YCON>

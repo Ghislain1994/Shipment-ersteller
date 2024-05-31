@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCON>
+	<Shipments>
+		<Shipment>
+			<TMS-Status>UPD</TMS-Status>
+			<TMS-Timestamp>10.05.2022 13:30:00</TMS-Timestamp>
+			<TMS-Source>YCON-XML-M3-FB</TMS-Source>
+			<TMS-ID>LTL-C-</TMS-ID>
+			<Date>02.05.2022</Date>
+			<Consignment-Note>ycon-demo-2022-05</Consignment-Note>
+			<Incoterm>EXW</Incoterm>
+			<ETA>2022-05-15T10:15:00</ETA>
+			<Service-Type>LTL</Service-Type>
+			<References>
+				<Reference>
+					<Ref-Type>SRF</Ref-Type>
+					<Reference>SRF-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>PON</Ref-Type>
+					<Reference>PON-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+			</References>
+			<Addresses>
+				<Client>
+					<ID>40003</ID>
+					<Name-1>Usine Industriel S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>2 Rue Lanson</Street>
+					<Country>FR</Country>
+					<ZIP>51100</ZIP>
+					<City>Reims</City>
+				</Client>
+				<Shipper>
+					<ID>40003</ID>
+					<Name-1>Usine Industriel S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>2 Rue Lanson</Street>
+					<Country>FR</Country>
+					<ZIP>51100</ZIP>
+					<City>Reims</City>
+				</Shipper>
+				<Consignee>
+					<ID>50001</ID>
+					<Name-1>Fabricca de Coche </Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gran Via de Ramon y Cajal 30</Street>
+					<Country>ES</Country>
+					<ZIP>46001</ZIP>
+					<City>Valencia</City>
+				</Consignee>
+				<Sending-Agent>
+					<ID>10004</ID>
+					<Name-1>ycon France S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>57 Rue Lothaire</Street>
+					<Country>FR</Country>
+					<ZIP>57000</ZIP>
+					<City>Metz</City>			
+				</Sending-Agent>
+				<Receiving-Agent>
+					<ID>20005</ID>
+					<Name-1>ycon Espana S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Calle Tejeria 26</Street>
+					<Country>ES</Country>
+					<ZIP>31001</ZIP>
+					<City>Pamplona</City>		
+				</Receiving-Agent>
+				<Carrier>
+					<ID>60001</ID>
+					<Name-1>Speedy-Conzalez Truck</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Calle Universidad 2</Street>
+					<Country>ES</Country>
+					<ZIP>31009</ZIP>
+					<City>Pamplona</City>
+				</Carrier>
+				<Loading>
+					<ID>40003</ID>
+					<Name-1>Usine Industriel S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>2 Rue Lanson</Street>
+					<Country>FR</Country>
+					<ZIP>51100</ZIP>
+					<City>Reims</City>
+				</Loading>
+				<Delivery>
+					<ID>50001</ID>
+					<Name-1>Fabricca de Coche </Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gran Via de Ramon y Cajal 30</Street>
+					<Country>ES</Country>
+					<ZIP>46001</ZIP>
+					<City>Valencia</City>
+				</Delivery>
+			</Addresses>
+			<Dispatch>
+				<ID>Manifest-Number</ID>
+				<Date>10.05.2022</Date>
+				<Vehicle>
+					<ID>DA-XX-550</ID>
+					<Identifier/>
+				</Vehicle>
+				<Trailer>
+					<ID/>
+					<Identifier/>
+				</Trailer>
+			</Dispatch>
+			<Positions>
+				<Position>
+					<Position>1</Position>
+					<Reference>PO-LTL-3</Reference>
+					<Piecex>6</Piecex>
+					<Packaging>EP</Packaging>
+					<Content>Household Goods</Content>
+					<Gross-Weight>5.000</Gross-Weight>
+					<Chargeable-Weight>4.500</Chargeable-Weight>
+					<Loading-Meters>3.000</Loading-Meters>
+					<Volume>4.00</Volume>
+					<Length>120</Length>
+					<Width>80</Width>
+					<Height>80</Height>
+				</Position>
+			</Positions>
+			<Information>
+				<Data-Type>INFO</Data-Type>
+				<Relation/>
+				<Code>911</Code>
+				<Text>Please book delivery window via internet platform</Text>
+				<Additional-Text>book via Transporeon</Additional-Text>
+				<Date-From/>
+				<Date-To/>
+				<Time-From/>
+				<Time-To/>
+			</Information>
+		</Shipment>
+	</Shipments>
+</YCON>

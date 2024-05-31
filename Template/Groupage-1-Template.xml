@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YCON>
+	<Shipments>
+		<Shipment>
+			<TMS-Status>UPD</TMS-Status>
+			<TMS-Timestamp>19.10.2024 10:00:00</TMS-Timestamp>
+			<TMS-Source>YCON-XML-M3-FB</TMS-Source>
+			<TMS-ID>GROUPAGE-A-</TMS-ID>
+			<Date>19.10.2023</Date>
+			<Consignment-Note>GROUPAGE-A-</Consignment-Note>
+			<Incoterm>EXW</Incoterm>
+			<ETA>2024-05-05T23:59</ETA>
+			<ETD/>
+			<ETPOD/>
+			<Service-Type>GROUPAGE</Service-Type>
+			<References>
+				<Reference>
+					<Ref-Type>SRF</Ref-Type>
+					<Reference>SRF-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>PON</Ref-Type>
+					<Reference>PON-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+				<Reference>
+					<Ref-Type>NVE</Ref-Type>
+					<Reference>NVE-</Reference>
+				</Reference>
+			</References>
+			<Addresses>
+				<Client>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Client>
+				<Shipper>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Shipper>
+				<Consignee>
+					<ID>50001</ID>
+					<Name-1>Fabricca de Coche</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gran Via de Ramon y Cajal</Street>
+					<Country>ES</Country>
+					<ZIP>46001</ZIP>
+					<City>Valencia</City>
+				</Consignee>
+				<Sending-Agent>
+					<ID>0001</ID>
+					<Name-1>ycon logistics GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Brunnenweg 19-21</Street>
+					<Country>DE</Country>
+					<ZIP>64331</ZIP>
+					<City>Weiterstadt</City>
+				</Sending-Agent>
+				<Receiving-Agent>
+					<ID>20005</ID>
+					<Name-1>ycon Espana S.A.</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Calle Tejeria 26</Street>
+					<Country>ES</Country>
+					<ZIP>31001</ZIP>
+					<City>Pamplona</City>
+				</Receiving-Agent>
+				<Carrier>
+					<ID/>
+					<Name-1/>
+					<Name-2/>
+					<Name-3/>
+					<Street/>
+					<Country/>
+					<ZIP/>
+					<City/>
+				</Carrier>
+				<Loading>
+					<ID>8521</ID>
+					<Name-1>Germany Client GmbH</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Ubierstraße 11</Street>
+					<Country>DE</Country>
+					<ZIP>65719</ZIP>
+					<City>Hofheim</City>
+				</Loading>
+				<Delivery>
+					<ID>50001</ID>
+					<Name-1>Fabricca de Coche</Name-1>
+					<Name-2/>
+					<Name-3/>
+					<Street>Gran Via de Ramon y Cajal</Street>
+					<Country>ES</Country>
+					<ZIP>46001</ZIP>
+					<City>Valencia</City>
+				</Delivery>
+			</Addresses>
+			<Dispatch>
+				<ID>Manifest-Number</ID>
+				<Date>02.05.2024</Date>
+				<Vehicle>
+					<ID>DA-XX-1234</ID>
+					<Identifier/>
+				</Vehicle>
+				<Trailer>
+					<ID/>
+					<Identifier/>
+				</Trailer>
+			</Dispatch>
+			<Positions>
+				<Position>
+					<Position>1</Position>
+					<Reference>PO-Groupage-A-1</Reference>
+					<Piecex>1</Piecex>
+					<Packaging>PAL</Packaging>
+					<Content>Machinery Parts</Content>
+					<Gross-Weight>150.00</Gross-Weight>
+					<Chargeable-Weight>12.500</Chargeable-Weight>
+					<Net-Weight>120.00</Net-Weight>
+					<Loading-Meters>8.400</Loading-Meters>
+					<Volume>1.500</Volume>
+					<Length>1.2</Length>
+					<Width>0.80</Width>
+					<Height>1.00</Height>
+				</Position>
+			</Positions>
+			<Information/>
+		</Shipment>
+	</Shipments>
+</YCON>

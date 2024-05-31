@@ -1,0 +1,100 @@
+<?php
+$xmlObj = new DOMDocument();
+$counter = 1;
+//this function open xml file
+function openXMLfile($xmlfile) {
+  if(@file_exists($xmlfile) != false){
+	$GLOBALS['xmlObj'] = simplexml_load_file($xmlfile);
+	#print_r($xmlobj);
+	return $GLOBALS['xmlObj'];
+  }else{
+	  exit('Failed to open xml File');
+  }
+  
+}
+//This function get the Value of xml ELement
+function getXMLvalue($xmlpath) { 
+   foreach($xmlpath as $GLOBALS['xmlObj']){
+	$GLOBALS['xmlObj'];  
+   }
+	return ($GLOBALS['xmlObj']) ? $GLOBALS['xmlObj'] : false;
+   
+}
+//This function change the value of xml Element
+function changeXMLvalue($xmlpath,$xmlvalue='') {
+	foreach($xmlpath as $GLOBALS['xmlObj']){
+		$node = $GLOBALS['xmlObj']->getName();
+		#echo "name of node $node  </br>";
+		$GLOBALS['xmlObj']->{$node} = htmlspecialchars($xmlvalue);
+	}
+	#return $xmlpath;
+	return $GLOBALS['xmlObj'];
+}
+function getCounter($xmlElement){
+	$stopCount= count($xmlElement);
+	$element = getXMLvalue($xmlElement);
+	$result = array($stopCount);
+	for($i = $GLOBALS['counter']; $i<= $stopCount; $i++){
+		$value =$element . $i;
+		$result[$i] = $value;
+		#echo " the value is " .$result[$i];
+	}
+	
+	return $result;
+}
+
+function saveXMLfile($xmlfile) {
+	$xmlFileValue = new DOMDocument();
+	$xmlFileValue->load($xmlfile);
+
+    file_put_contents($xmlfile, $xmlFileValue);
+}
+
+if (isset($_FILES['doc']) && ($_FILES['doc']['error'] == UPLOAD_ERR_OK)) {
+
+  //Hier wird File gelesen und dann value auf File ausgenutzt
+  $xml = $_FILES['doc']['tmp_name'];
+  $ship = openXMLfile($xml)->xpath('Shipments/Shipment');
+  $tmsid = openXMLfile($xml)->xpath('Shipments/Shipment/TMS-ID');
+  $eta = openXMLfile($xml)->xpath('Shipments/Shipment/ETA');
+  $refTyp = openXMLfile($xml)->xpath('Shipments/Shipment/References/Reference/Ref-Type');
+  $reference = openXMLfile($xml)->xpath('Shipments/Shipment/References/Reference/Reference');
+  
+  $actuETA = $_POST['eta'];
+  #$i = 1; 
+foreach ($tmsid as $id){
+	$value = $id . $GLOBALS['counter'];
+}
+foreach($eta as $myEta){
+	$myEta = $actuETA;;
+}
+foreach($reference as $newRef){
+	if(str_contains($newRef, 'SRF')|| str_contains($newRef, 'PON')){
+		$newRef .= $GLOBALS['counter']++;
+	}
+	if(str_contains($newRef, 'NVE')){
+		getCounter($reference);
+	}
+}
+
+$ship-> saveXML('FTL-Example.xml');
+ #echo  file_put_contents($xmlfile, $xmlFileValue);
+  
+  #echo changeXMLvalue($refTyp, 'TRF');
+  
+  #echo getCounter($reference);
+  #echo getXMLvalue($tmsid);
+  #print_r(changeXMLvalue($eta, $actuETA));
+  
+  #saveXMLfile($ship);
+  
+  #echo"<b>Actuelle ETA ist: $actuETA </b></br>";
+  
+
+}
+if(isset($_POST['generate'])){}
+
+?>
+
+ 
+		

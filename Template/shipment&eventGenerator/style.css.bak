@@ -1,0 +1,19 @@
+body {
+  background-color: powderblue;
+  width: 700px;
+  margin: 0 auto;
+  max-width: 90%;
+
+}
+div{
+	border:5px solid #21130d; 
+	text-align:center;
+}
+form {
+  text-align: center;
+  color: black;
+  margin: 30 px;
+  margin-bottom:80 px;
+  margin-left: 80 px;
+  border:80 px;
+}
